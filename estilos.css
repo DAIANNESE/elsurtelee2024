@@ -20,10 +20,10 @@ body {
     flex-direction: column;
     align-items: center;
 
-    background-image: url(imagenes/_DSC0763.JPG);
+    background-color: green;
     background-size: 100%;
 
-    font-family: 'Franklin Gothic Medium';
+    font-family: "Times New Roman";
 }
 
 
@@ -78,181 +78,54 @@ header {
 
 
 .header__logo {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
-    border: solid whitesmoke;
+    border: solid wheat;
 }
 
 .header__titulo {
     text-transform: uppercase;
     text-align: center;
-    color: #f5b5cc;
-    font-size: 50px;
-    font-weight: 700;
+    color: wheat;
+    font-size: 10px;
+    font-weight: 200;
 }
 
 .header__descripcion {
-    font-family: 'Franklin Gothic Medium';
-    color: white;
+    font-family: 'Times New Roman';
+    color: wheat;
 
     text-align: center;
 }
 
-.seccion1 {
-    padding: 1rem;
-}
 
-.seccion1__lista {
-    list-style-type: none;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-}
-
-.seccion1__item {
-    background-color: #f5b5cc;
-    border-radius: 0.5rem;
-    border: solid whitesmoke;
-
-}
-
-.seccion1__enlace {
-    text-decoration: none;
-    background-color: #f5b5cc;
-    display: block;
-    text-align: center;
-    padding: 0.5rem;
-    border-radius: inherit;
-    color: blue;
-}
-
-
-
-
-/* Seccion 2 */
-
-.seccion2 {
-    padding: 1rem;
-    border-radius: 0.5rem;
-}
-
-.seccion2__iframe {
-    /* width: 50%; */
-    height: auto;
-    border-radius: 0.5rem;
-
-
-
-
-}
-
-/* Seccion 3 */
-
-.seccion3 {
-    padding: 1rem;
-
-}
-
-.seccion3__lista {
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 1rem;
-
-}
-
-.seccion3__item {
-    width: 250px;
-    height: 250px;
-    border-radius: 0.5rem;
-
-    border: solid whitesmoke;
-
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.seccion3__enlace {
-
-    text-transform: uppercase;
-    text-decoration: none;
-    font-family: 'Franklin Gothic Medium';
-    color: #f5b5cc;
-
-}
-
-/* Seccion 4 */
-
-.seccion4 {
-    padding: 1rem;
-}
-
-
-.carousel-control-prev,
-.carousel-control-next {
-    width: 100px;
-    height: 100px;
-    background-color: rgb(102, 102, 173);
-    border-radius: 50%;
-    top: 50%;
-    transform: translateY(-50%);
-    opacity: 0.8;
-}
-
-.carousel-control-prev:hover,
-.carousel-control-next:hover {
-    opacity: 0.5;
-
-}
-
-.seccion4__jorge {
-    display: block;
-
-    border-radius: 0.5rem;
-
-
-}
-
-.seccion5 {
-    padding: 1rem;
-    color: beige;
-
-
-
-
-
-}
 
 .color__h1 {
 
-    background-color: #f5b5cc;
-    color: rgb(102, 102, 173);
-    border-radius: 0.5rem;
-    border: solid whitesmoke;
+    padding-top: 2rem;
+    border-radius: 1rem;
 
-
+    color: wheat;
 
 
 
 }
 
+
+
+
 .seccion5__boton {
-    background-color: #f5b5cc;
-    border-color: white;
-    color: rgb(102, 102, 173);
+    background-color: green;
+    border-color: wheat;
+    color: grey;
 
 
 
 }
 
 .seccion5__boton:hover {
-    color: #f5b5cc;
+    color: green;
 
 }
 
@@ -266,31 +139,31 @@ header {
 
 
 .seccion6 {
-    padding: 3rem;
+    padding: 1rem;
 }
 
 .seccion6__lista {
     list-style-type: none;
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+
 }
 
 .seccion6__item {
-    background-color: #f5b5cc;
+    background-color: green;
     border-radius: 0.5rem;
-    border: solid whitesmoke;
+    border: solid grey;
 
 }
 
 .seccion6__enlace {
     text-decoration: none;
-    background-color: #f5b5cc;
+    background-color: green;
     display: block;
     text-align: center;
     padding: 0.5rem;
     border-radius: inherit;
-    color: blue;
+    color: wheat;
 }
 
 
@@ -310,10 +183,15 @@ header {
 
 }
 
+.color__h1 {
+    text-align: center;
+}
+
 .footer__descripcion {
     font-family: 'Franklin Gothic Medium';
-    color: white;
+    background-color: white;
 
+    color: wheat;
     text-align: inherit;
     margin-bottom: 30px;
 
@@ -322,19 +200,17 @@ header {
 
 }
 
-.footer__imagen {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-
-    border: solid whitesmoke;
+.h6 {
+    font-family: "Times New Roman";
+    color: wheat
 }
+
 
 /*medias querys*/
 @media(min-width:768px) {
     body {
 
-        background-color: blue;
+        background-color: rgb(56, 116, 56);
     }
 
     .header__titulo {

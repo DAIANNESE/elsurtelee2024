@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario de Contacto</title>
-    <link rel="shortcut icon" href="imagenes/_DSC0763.JPG" type="image/x-icon">
+    <title>Formulario de Inscripcion</title>
+    <link rel="shortcut icon" href="logo brote.jpg" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="estilos.css">
@@ -24,36 +24,43 @@
 
 <body>
     <header class="header">
-        <img class="header__logo" src="imagenes/_DSC0763.JPG" alt="imagen principal" width="200" height="200">
+        <img class="header__logo" src="logo brote.jpg" alt="imagen principal" width="200" height="200">
 
-        <h1 class="header__titulo">UNIVERSOS
-            PARALELOS</h1>
+        <h1 class="header__titulo">"El Sur Te Lee"</H1>
+        <h3> Edicion Verano 2024</h3>
     </header>
 
 
 
     <main class="main">
 
-        <section class="seccion5">
-            <h1 class="color__h1" class="text-center">Contacto y
-                Contrataciones</h1>
+
+        <section class="seccion">
+            <h1 class="color__h1" class="text-center">Convocatoria de escritor@s
+            </h1>
             <form action="https://formspree.io/f/mqkvvgpz" method="POST">
                 <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Direccion de correo electronico </label>
+                    <label for="exampleFormControlInput1" class="form-label">e-mail: </label>
                     <input name="email" type="email" class="form-control" id="exampleFormControlInput1"
-                        placeholder="name@example.com">
+                        placeholder="mail@ejemplo">
                 </div>
                 <div class="mb-3">
-                    <label class="form-label" for="tipo">Tipo de consulta</label>
+                    <label for="exampleFormControlInput1" class="form-label"> teléfono de contacto:</label>
+                    <input name="number" type="number" class="form-control" id="exampleFormControlInput1"
+                        placeholder="12345">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="tipo">participacion en la feria y charlas:</label>
                     <select name='tipo' id="tipo" class="form-select" aria-label="Default select example">
                         <option selected>Seleccione una opcion</option>
-                        <option value="Devolucion">Devolucion de entradas</option>
-                        <option value="Contrataciones">Contrataciones</option>
-                        <option value="Manager">Manager</option>
-                        <option value="ayuda">Ayuda</option>
+                        <option value="Devolucion">solo feria</option>
+                        <option value="Contrataciones">solo charlas</option>
+                        <option value="Manager">ambas</option>
+
                     </select>
                     <div class="mb-3">
-                        <label for="exampleFormControlTextarea1" class="form-label">Comentario</label>
+                        <label for="exampleFormControlTextarea1" class="form-label">Breve reseña personal y de la
+                            obra:</label>
                         <textarea name="message" class="form-control" id="exampleFormControlTextarea1"
                             rows="3"></textarea>
                     </div>
@@ -70,28 +77,17 @@
         </section>
 
 
+        <h6 class="h6"> Entendemos que la aceptacion de asistir al
+            evento implica permanecer en la feria el tiempo que se desarrolle
+            la misma a excepcion de casos de fuerza mayor. Ante cualquier
+            impedimento favor comunicarlo al 2234565456(Daiana) para
+            poder garantizar el desarrollo del evento.
+            Hoy más que nunca necesitamos comprometernos para fortalecer lazos.
 
-        <section class="seccion6">
+        </h6>
 
-
-            <ul class="seccion6__lista">
-                <div>
-
-                    <li class="seccion6__item">
-                        <a class="seccion6__enlace" href='index.html'>Volver al Inicio
-                            🪐 </a>
-                    </li>
-                </div>
-            </ul>
-
-        </section>
 
     </main>
-    <footer class="footer">
-        <div> <img class="footer__imagen" src="imagenes/frontera.jpg" alt="Frontera" width="300" height="200">
-
-            <img class="footer__imagen" src="imagenes/tinta y tiempo.jpg" alt="Tinta y tiempo" width="300" height="200">
-
-            <img class="footer__imagen" src="imagenes/salvavidas de hielo.jpg" alt="salvavidas de hielo" width="300"
-                height="200">
-        </div>
+    <footer>
+        /// Brote cultural 2024 ///
+    </footer>
